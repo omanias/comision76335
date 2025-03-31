@@ -1,0 +1,38 @@
+.item-count-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.quantity-label {
+    font-size: 1rem;
+    color: #666;
+}
+
+.counter-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.counter-value {
+    min-width: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+/* Ajustes para los botones de PrimeReact */
+.counter-buttons .p-button.p-button-rounded {
+    width: 2rem;
+    height: 2rem;
+}
+
+.counter-buttons .p-button.p-button-rounded:hover {
+    background-color: #e9ecef;
+}

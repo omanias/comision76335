@@ -1,0 +1,14 @@
+.cart-widget {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.cart-widget:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.cart-widget i {
+    color: #2c3e50;
+}
