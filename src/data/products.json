@@ -1,0 +1,94 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "El Alquimista",
+            "description": "La historia de un joven pastor llamado Santiago que emprende un viaje para encontrar un tesoro escondido en Egipto, descubriendo el verdadero significado de la vida.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81oJ5J9m4tL.jpg",
+            "price": 500,
+            "stock": 3,
+            "category": "Ficción"
+        },
+        {
+            "id": 2,
+            "title": "Sapiens: De animales a dioses",
+            "description": "Una fascinante historia de la humanidad que aborda cómo los humanos han llegado a dominar el planeta, explorando nuestra historia desde los primeros Homo sapiens hasta la actualidad.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91p0zqS6MoL.jpg",
+            "price": 600,
+            "stock": 5,
+            "category": "No Ficción"
+        },
+        {
+            "id": 3,
+            "title": "Harry Potter y la Piedra Filosofal",
+            "description": "El primer libro de la famosa saga sobre un niño huérfano que descubre que es un mago y empieza su formación en la escuela Hogwarts.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91lB9tBF5DL.jpg",
+            "price": 450,
+            "stock": 2,
+            "category": "Literatura Infantil"
+        },
+        {
+            "id": 4,
+            "title": "1984",
+            "description": "Una distopía clásica que describe un mundo totalitario donde el gobierno controla todos los aspectos de la vida, incluyendo el pensamiento.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71kP7pN-oPL.jpg",
+            "price": 700,
+            "stock": 1,
+            "category": "Ficción"
+        },
+        {
+            "id": 5,
+            "title": "El Arte de la Guerra",
+            "description": "Un antiguo tratado chino sobre estrategia militar, que también se aplica a las decisiones empresariales y de liderazgo.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71x-h4cb8iL.jpg",
+            "price": 550,
+            "stock": 4,
+            "category": "No Ficción"
+        },
+        {
+            "id": 6,
+            "title": "El Principito",
+            "description": "La historia de un pequeño príncipe que viaja por el espacio y aprende valiosas lecciones sobre la vida, la amistad y el amor.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81H+g0l1m2L.jpg",
+            "price": 400,
+            "stock": 6,
+            "category": "Literatura Infantil"
+        },
+        {
+            "id": 7,
+            "title": "Cien años de soledad",
+            "description": "Una de las obras más emblemáticas del realismo mágico, que narra la historia de la familia Buendía en el pueblo ficticio de Macondo.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81TAl1tI7tL.jpg",
+            "price": 800,
+            "stock": 3,
+            "category": "Ficción"
+        },
+        {
+            "id": 8,
+            "title": "Freakonomics",
+            "description": "Un libro que examina fenómenos sociales, económicos y culturales con un enfoque de análisis inesperado y curioso.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81nxZ2aIMyL.jpg",
+            "price": 350,
+            "stock": 7,
+            "category": "No Ficción"
+        },
+        {
+            "id": 9,
+            "title": "Matilda",
+            "description": "La historia de una niña excepcionalmente inteligente que enfrenta adversidades con su familia y encuentra magia en su vida.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81-YF7g3hOL.jpg",
+            "price": 600,
+            "stock": 2,
+            "category": "Literatura Infantil"
+        },
+        {
+            "id": 10,
+            "title": "La Sombra del Viento",
+            "description": "En la Barcelona de la postguerra, un joven descubre un libro que cambiará su vida y desvela secretos oscuros de la ciudad.",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81pHKb-V3gL.jpg",
+            "price": 450,
+            "stock": 5,
+            "category": "Ficción"
+        }
+    ]
+}

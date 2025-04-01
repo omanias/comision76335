@@ -1,19 +1,46 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ItemList from './ItemList'
+import { getProducts } from '../services/productService'
+import { ProgressSpinner } from 'primereact/progressspinner'
 
 const ItemListContainer = () => {
+    const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-    const products = [
-        { title: "Libro A", description: "Description Libro A", image: "book image", price: 500, stock: 3 },
-        { title: "Libro B", description: "Description Libro B", image: "book image", price: 500, stock: 3 },
-        { title: "Libro C", description: "Description Libro C", image: "book image", price: 500, stock: 3 }
-    ]
+    useEffect(() => {
+        getProducts()
+            .then(products => {
+                setProducts(products);
+                setLoading(false);
+            })
+            .catch(error => {
+                setError('Error al cargar los productos. Por favor, intente más tarde.');
+                setLoading(false);
+            });
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="flex justify-content-center align-items-center" style={{ height: '400px' }}>
+                <ProgressSpinner />
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div className="flex justify-content-center align-items-center" style={{ height: '400px' }}>
+                <p className="text-red-500">{error}</p>
+            </div>
+        );
+    }
 
     return (
         <div>
             <ItemList products={products} />
         </div>
-    )
+    );
 }
 
-export default ItemListContainer
+export default ItemListContainer;
