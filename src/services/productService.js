@@ -9,5 +9,8 @@ export const getProducts = () => {
             })
             .then(data => resolve(data.products))
             .catch(error => reject(error));
-    });
+    }
+
+    );
+
 }; 
